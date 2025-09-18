@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title-container,
+.labs-container,
+.lab-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-container,
+.labs-container,
+.lab-container {
+    max-width: 800px;
+    width: 90%;
+    min-height: 400px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25)
+}
+
+.goal-container,
+.task-container,
+.item-container,
+.ai-container {
+    padding: 15px;
+}
+
+.goal-container h2,
+.task-container h2,
+.item-container h2 {
+    text-align: center;
+}
+
+.lab-list {
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lab-list li {
+    margin: 10px 0;
+}
+
+.lab-list a {
+    font-size: 18px;
+}
+
+.labs-link,
+.lab-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.lab-list a:hover {
+    color: #5E5E5E;
+}
+
+.labs-link a:hover {
+    color: #5E5E5E;
+}
+
+.fio {
+    margin-top: 45px;
+}
+
+.labs-link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.code-container {
+    width: 75%;
+    background-color: #E6E6E6;
+    padding: 20px;
+    border-radius: 10px;
+}
